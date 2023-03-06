@@ -2,10 +2,15 @@ package main
 
 import (
 	"fmt"
-	"testprogect/testmod"
+
+	"github.com/tanya-mtv/testproject/testmod"
+	"github.com/tanya-mtv/testproject/testmod1"
 )
 
 func main() {
 	fmt.Println("My test")
-	testmod.Hi("Ваня")
+	fmt.Println(testmod.Hi("Ваня"))
+
+	fmt.Println(testmod1.GodBy("Ваня"))
+
 }
