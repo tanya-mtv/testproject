@@ -5,6 +5,7 @@ import (
 
 	"github.com/tanya-mtv/testproject/testmod"
 	"github.com/tanya-mtv/testproject/testmod1"
+	"github.com/tanya-mtv/testproject/testmod2"
 )
 
 func main() {
@@ -12,6 +13,7 @@ func main() {
 	fmt.Println(testmod.Hi("Ваня"))
 
 	fmt.Println(testmod1.GodBy("Ваня"))
-	fmt.Println("kkkkk")
+
+	testmod2.Dosomething()
 
 }
