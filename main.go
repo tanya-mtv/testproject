@@ -7,5 +7,5 @@ import (
 
 func main() {
 	fmt.Println("My test")
-	testmod.Hi()
+	testmod.Hi("Ваня")
 }
