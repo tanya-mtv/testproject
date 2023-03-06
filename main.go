@@ -12,5 +12,6 @@ func main() {
 	fmt.Println(testmod.Hi("Ваня"))
 
 	fmt.Println(testmod1.GodBy("Ваня"))
+	fmt.Println("kkkkk")
 
 }
